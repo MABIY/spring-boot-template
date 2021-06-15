@@ -1,5 +1,5 @@
-#default:
-#  image: ubuntu:18.04
+default:
+  image: ubuntu:18.04
 
 build-job:
   stage: build
