@@ -7,7 +7,7 @@ spring:
     activate:
       on-profile: dev
   datasource:
-    url: jdbc:postgresql://172.17.0.4:5432/hasura
+    url: jdbc:postgresql://172.17.0.2/hasura
     username: postgres
     password: mysecretpassword
     driver-class-name: org.postgresql.Driver
