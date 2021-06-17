@@ -10,6 +10,7 @@ build-job:
   script:
     - ./gradlew build
 
+
 test-job1:
   stage: test
   script:
