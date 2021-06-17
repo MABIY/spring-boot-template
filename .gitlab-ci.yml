@@ -5,7 +5,7 @@ before_script:
   - echo "before_script"
 
 build-job:
-  image: ubuntu:18.04
+  image: openjdk:11.0.11-jdk
   stage: build
   script:
     - ./gradlew build
