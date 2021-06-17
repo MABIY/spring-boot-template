@@ -2,7 +2,7 @@ default:
   image: ubuntu:20.04
 
 before_script:
-  - docker info
+  - echo "before_script"
 
 build-job:
   image: ubuntu:18.04
