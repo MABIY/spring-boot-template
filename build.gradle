@@ -22,6 +22,9 @@ jar {
 	enabled = false
 }
 
+tasks.withType(Jar) {
+	destinationDirectory = file("${project.rootDir}/ci/")
+}
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
