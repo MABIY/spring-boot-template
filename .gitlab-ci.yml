@@ -2,7 +2,12 @@ default:
   image: ubuntu:20.04
 
 before_script:
-  - echo "before_script"
+  - export GRADLE_USER_HOME=`pwd`/.gradle
+
+cache:
+  paths:
+    - .gradle/wrapper
+    - .gradle/caches
 
 build-job:
   image: openjdk:11.0.11-jdk
